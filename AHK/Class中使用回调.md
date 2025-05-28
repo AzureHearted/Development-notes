@@ -1,5 +1,5 @@
 在`AHKv2`的`class`中使用`回调函数`与顶层环境不同，因此必须使用`ObjBindMethod`方法创建一个函数对象作为回调，例如：
-```ahk
+```js
 class MyClass{
   ;.........
 
